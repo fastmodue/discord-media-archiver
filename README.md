@@ -40,7 +40,7 @@ pip install requests
 
 1. Run the script:
 ```bash
-python main.py
+python discord-media-archiver
 ```
 
 2. Enter your Discord token when prompted
