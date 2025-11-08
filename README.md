@@ -94,7 +94,25 @@ downloads/
 3. Go to the **Console** tab
 4. Paste this code and press Enter:
 ```javascript
-(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+let token;
+window.webpackChunkdiscord_app.push([[Symbol()], {}, o => {
+  for (let e of Object.values(o.c)) {
+    try {
+      if (!e.exports || e.exports === window) continue;
+      if (e.exports?.getToken) {
+        token = e.exports.getToken();
+        console.log("Token:", token);
+      }
+      for (let o in e.exports) {
+        if (e.exports?.[o]?.getToken && "IntlMessagesProxy" !== e.exports[o][Symbol.toStringTag]) {
+          token = e.exports[o].getToken();
+          console.log("Token:", token);
+        }
+      }
+    } catch {}
+  }
+}]);
+window.webpackChunkdiscord_app.pop();
 ```
 5. Copy the token (without quotes)
 
