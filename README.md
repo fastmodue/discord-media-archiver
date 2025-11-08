@@ -13,7 +13,7 @@ A powerful Python tool to download and archive all media (images, videos) from y
 -  **Date filtering** - Download media from a specific date onwards
 -  **Progress tracking** - Real-time progress bars and download statistics
 -  **Link archiving** - Automatically saves all media links with metadata
--  **Clean CLI** - Clean, user-friendly interface with progress indicators
+- **Easy to use** – simple console interface
 -  **Rate limit handling** - Smart handling of Discord API rate limits
 
 ##  Quick Start
@@ -28,7 +28,7 @@ A powerful Python tool to download and archive all media (images, videos) from y
 1. Clone the repository:
 ```bash
 git clone https://github.com/fastmodue/DISCORD-MEDIA-DOWNLOADER-ARCHIVER.git
-cd DISCORD-MEDIA-DOWNLOADER-ARCHIVER
+cd discord-media-archiver
 ```
 
 2. Install required dependencies:
@@ -58,7 +58,7 @@ python main.py
 
 6. Optionally set a date filter (YYYY-MM-DD format)
 
-7. Sit back and relax 🍷
+7. Sit back and wait until its done 🤓
 
 ## 📂 Output Structure
 
@@ -140,7 +140,7 @@ The `links.txt` file contains:
 - Saved filenames
 - Media categories
 
-## 🛠️ Supported File Types
+## Supported File Types
 
 ### Images
 `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.bmp`, `.svg`
@@ -148,12 +148,12 @@ The `links.txt` file contains:
 ### Videos
 `.mp4`, `.mov`, `.avi`, `.mkv`, `.webm`, `.flv`, `.wmv`, `.m4v`
 
-## ⚠️ Important Notes
+## ❗ Important Notes ❗
 
 - Files are saved with timestamps to avoid naming conflicts
 - The script respects Discord's rate limits
 - Progress is saved in `links.txt` for reference
-- Invalid filenames are automatically sanitized
+- Invalid filenames are automatically sanitized :D
 
 ## 🤝 Contributors
 
@@ -171,12 +171,12 @@ Having issues? Found a bug? Want to contact us?
 - 📜 Contact us:
 - https://discord.gg/Ju4xe6gYJ4
 - Or add us on discord: fastmodue, hippo844
-- [Report a Bug](https://github.com/fastmodue/DISCORD-MEDIA-DOWNLOADER-ARCHIVER/issues)
-- [Request a Feature](https://github.com/fastmodue/DISCORD-MEDIA-DOWNLOADER-ARCHIVER/issues)
+- [Report a Bug](https://github.com/fastmodue/discord-media-archiver/issues)
+- [Request a Feature](https://github.com/fastmodue/discord-media-archiver/issues)
   
 - ⭐ Star this repo if you find it useful!
 
-## 📸 Screenshots
+## 📸 Example output
 
 ```
  ╔═══════════════════════════════════════════════════════╗
