@@ -60,7 +60,7 @@ python discord-media-archiver.py
 
 7. Sit back and wait until its done 🤓
 
-## 📂 Output Structure
+## Output Structure
 
 ### Organized by File Type (default):
 ```
@@ -86,7 +86,7 @@ downloads/
 └── links.txt
 ```
 
-## 🔑 Getting Your Discord Token
+## Getting Your Discord Token
 
 ### Desktop App / Browser:
 1. Open Discord (app or browser)
@@ -116,9 +116,9 @@ window.webpackChunkdiscord_app.pop();
 ```
 5. Copy the token (without quotes)
 
-⚠️ **Security Warning**: Never share your token with anyone! It gives full access to your Discord account.
+**Security Warning**: Never share your token with anyone! It gives full access to your Discord account.
 
-## 📊 Features Breakdown
+## Features Breakdown
 
 ### Date Filtering
 Download media from a specific date onwards. Supports multiple date formats:
@@ -148,35 +148,35 @@ The `links.txt` file contains:
 ### Videos
 `.mp4`, `.mov`, `.avi`, `.mkv`, `.webm`, `.flv`, `.wmv`, `.m4v`
 
-## ❗ Important Notes ❗
+## Important Notes
 
 - Files are saved with timestamps to avoid naming conflicts
 - The script respects Discord's rate limits
 - Progress is saved in `links.txt` for reference
 - Invalid filenames are automatically sanitized :D
 
-## 🤝 Contributors
+## Contributors
 
-Made with ❤️ by:
+Made with love by:
 - **[@fastmodue](https://github.com/fastmodue)** - Discord: `fastmodue`
-- **[@HIPPO84](https://github.com/hipporr)** - Discord: `hippo844`
+- **[@HIPPO84](https://github.com/hipporr)** - Discord: `hipporator`
 
 ## 📄 License
 
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
-## ⚡ Support
+## Support
 
 Having issues? Found a bug? Want to contact us?
-- 📜 Contact us:
+- Contact us:
 - https://discord.gg/Ju4xe6gYJ4
-- Or add us on discord: fastmodue, hippo844
+- Or add us on discord: fastmodue, hipporator
 - [Report a Bug](https://github.com/fastmodue/discord-media-archiver/issues)
 - [Request a Feature](https://github.com/fastmodue/discord-media-archiver/issues)
   
-- ⭐ Star this repo if you find it useful!
+- Star this repo if you find it useful!
 
-## 📸 Example output
+## Example output
 
 ```
  ╔═══════════════════════════════════════════════════════╗
