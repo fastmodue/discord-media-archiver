@@ -58,7 +58,7 @@ python discord-media-archiver.py
 
 6. Optionally set a date filter (YYYY-MM-DD format)
 
-7. Sit back and wait until its done 🤓
+7. Sit back and wait until its done
 
 ## Output Structure
 
@@ -159,9 +159,9 @@ The `links.txt` file contains:
 
 Made with love by:
 - **[@fastmodue](https://github.com/fastmodue)** - Discord: `fastmodue`
-- **[@HIPPO84](https://github.com/hipporr)** - Discord: `hipporator`
+- **[@hipporator](https://github.com/hipporr)** - Discord: `hipporator`
 
-## 📄 License
+## License
 
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
