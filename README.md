@@ -116,7 +116,7 @@ window.webpackChunkdiscord_app.pop();
 ```
 5. Copy the token (without quotes)
 
-**Security Warning**: Never share your token with anyone! It gives full access to your Discord account.
+**Security Warning**: Never share your token with anyone, It gives full access to your Discord account.
 
 ## Features Breakdown
 
