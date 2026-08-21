@@ -1,6 +1,6 @@
 #  DISCORD MEDIA DOWNLOADER & ARCHIVER
 
-A powerful Python tool to download and archive all media (images, videos) from your Discord DMs and Group chats with progress tracking and flexible organization options.
+A simple python tool to download and archive all media (images, videos) from your Discord DMs and Group chats
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![License: GPL v3](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
@@ -43,7 +43,7 @@ pip install requests
 python discord-media-archiver.py
 ```
 
-2. Enter your Discord token when prompted
+2. Enter your Discord token when prompted (be careful with this please)
 
 3. Choose what to scan:
    - Group DMs only
